@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle {
+    width: 50%;
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    gap: 15px;
+    padding: 15px; 
+    margin-left: 20px;
+}
+
+.square {
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
